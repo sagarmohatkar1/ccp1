@@ -1,0 +1,33 @@
+<html>
+
+    <body bgcolor="gray">
+
+        <center>
+
+        <h1> CUSTOMER CHURN PREDICTION AND SOLUTION </h1><br>
+
+        <img src='static\ccp.jpeg' alt="data_science">
+
+        <h1> Enter Customer Information </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+            <b> Geography :  <input type="text", name='Geography', placeholder="Maharashtra\Gujrat\Kerla"> <br><br>
+             Gender :  <input type="text", name='Gender', placeholder="Male\Female"> <br><br>
+             Age :  <input type="number", name='Age', placeholder="In Years"> <br><br>
+             Tenure :  <input type="number", name='Tenure', placeholder="In Years"> <br><br>
+             Credit Score :  <input type="number", name='CreditScore', placeholder="Enter Credit Score"> <br><br>
+             Balance :  <input type="number", name='Balance', placeholder="Account Balance"> <br><br>
+             Num Of Products :  <input type="number", name='NumOfProducts', placeholder="Products"> <br><br>
+             HasCrCard :  <input type="number", name='HasCrCard', placeholder="0 for No\1 for Yes"> <br><br>
+             Is Active Member :  <input type="number", name='IsActiveMember', placeholder="1 for Active\0 for NotActive"> <br><br>
+             EstimatedSalary :  <input type="number", name='EstimatedSalary', placeholder="Monthly Salary"> <br><br>
+             No of Complaints : <input type="number", name='noofComplaints', placeholder="Complaints"> <br><br><br></b>
+             <input type="submit" , value='Click Here For Prediction & Solution' >
+         </form>
+
+        
+        
+    </center>
+
+    </body>
+</html>
